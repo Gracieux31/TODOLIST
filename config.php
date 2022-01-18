@@ -1,9 +1,9 @@
 <?php
 
 return $config = [
-    'server' => 'localhost',
-    'dbname' => 'todolist',
+    'hostname' => 'www.phplist.test',
+    'dbname' => 'Todolist_php',
     'dbpass' => 'root',
-    'dbuser' => 'user',
+    'dbuser' => 'root',
     
 ];
