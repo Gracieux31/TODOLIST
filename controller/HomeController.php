@@ -34,14 +34,14 @@ class HomeController{
 
     public function routeManger(){
         if(isset($_SESSION['userLogInStatus'])){
-            return require_once('view/dashboard.php');
+            return require_once('../view/dashboard.php');
         }
         if(isset($_GET['register'])){
-            return require_once('view/register.php');
+            return require_once('../view/register.php');
         }
         if(isset($_GET['login'])|| isset($_GET['logout'])){
-            return require_once('view/login.php');
+            return require_once('../view/login.php');
         }
-        return require_once('view/login.php');
+        return require_once('../view/login.php');
     }
 }
