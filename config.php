@@ -2,7 +2,7 @@
 
 return $config = [
     'hostname' => 'www.phplist.test',
-    'dbname' => 'Todolist_php',
+    'dbname' => 'todolist_example',
     'dbpass' => 'root',
     'dbuser' => 'root',
     
