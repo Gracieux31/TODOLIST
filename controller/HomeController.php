@@ -1,7 +1,6 @@
 <?php
 
 
-
 class HomeController{
     public $model;
 
@@ -21,6 +20,7 @@ class HomeController{
                 $_SESSION['userLogInStatus']=1;
             }
         }
+
         if(isset($_POST['RegisterSubmit'])){
             $username = $_POST['username'];
             $password = $_POST['password'];
@@ -29,10 +29,6 @@ class HomeController{
             $_SESSION['userLogInStatus'] =1;
 
         } 
-        $this->routeManger(); 
-    }
-
-    public function routeManger(){
         if(isset($_SESSION['userLogInStatus'])){
             return require_once('../view/dashboard.php');
         }
@@ -44,4 +40,5 @@ class HomeController{
         }
         return require_once('../view/login.php');
     }
+
 }
