@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+<?php include_once('template/header.php'); ?>   
     <title>Document</title>
 </head>
 <body>
@@ -19,7 +13,7 @@
         <p class="col-lg-10 fs-4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Inscrivez-vous pour acceder au support TODOLIST .</font></font></p>
       </div>
       <div class="col-md-10 mx-auto col-lg-5">
-        <form id="login-form" action="" method="post" class="form p-4 p-md-5 border rounded-3 bg-light">
+        <form id="login-form" action="?action=register" method="post" class="form p-4 p-md-5 border rounded-3 bg-light">
           <div class="form-floating mb-3">
             <input type="text" name="username" class="form-control" id="username">
             <label for="username"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Username:</font></font></label>
@@ -30,7 +24,7 @@
           </div>
           <button name="RegisterSubmit" class="w-100 btn btn-lg btn-primary" type="submit" value="submit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">S'inscrire</font></font></button>
           <div id="reg_link" class="text-right">
-            <a href="?action=login" class="text-info">Login here</a>
+           <br> <a href="?action=login" class="text-info">Login here</a>
           </div>
           <hr class="my-4">
           <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">En cliquant sur S'inscrire, vous acceptez les conditions d'utilisation.</font></font></small>
@@ -43,7 +37,7 @@
 
 
 
-
+<?php include_once('template/footer.php'); ?>
     
 </body>
 </html>
