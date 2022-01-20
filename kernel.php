@@ -2,7 +2,7 @@
 session_start();
 include_once(__DIR__.'/config.php');
 include_once(__DIR__.'/connection/db.php');
-include_once(__DIR__."/routes/route.php");
+
 
 
 spl_autoload_register(function ($class){
@@ -17,7 +17,7 @@ spl_autoload_register(function ($class){
 
 $db =  Connection::connect($config);
 
-
+include_once(__DIR__."/routes/route.php");
 
         if(!empty($route)){
             $routes = explode('@', $route);    

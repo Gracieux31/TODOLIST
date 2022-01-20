@@ -30,7 +30,7 @@
           </div>
           <button name="RegisterSubmit" class="w-100 btn btn-lg btn-primary" type="submit" value="submit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">S'inscrire</font></font></button>
           <div id="reg_link" class="text-right">
-            <a href="?login=true"class="text-info">Login here</a>
+            <a href="?action=login" class="text-info">Login here</a>
           </div>
           <hr class="my-4">
           <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">En cliquant sur S'inscrire, vous acceptez les conditions d'utilisation.</font></font></small>

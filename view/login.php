@@ -31,7 +31,7 @@
           </div>
           <button name="LoginSubmit" class="w-100 btn btn-lg btn-primary" type="submit" value="submit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Se connecter</font></font></button>
           <div id="reg_link" class="text-right">
-            <a href="?register=true"class="text-info">Registers</a>
+            <a href="?action=register" class="text-info">Register</a>
           </div>
           <hr class="my-4">
           <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">En cliquant sur S'inscrire, vous acceptez les conditions d'utilisation.</font></font></small>
@@ -43,37 +43,4 @@
 
 </body>
 
-
-
-<!-- <body>
-        <div id="login">
-            <h3 class="text-center texte-white pt-5">Login</h3>
-            <div class="container">
-                <div id="login-row" class="row justify-content-centr align-items-center">
-                    <div id="login-column" class="col-md-6">
-                    <div id="login-box" class="col-md-12">
-                        <form id="login-form" class="form" action="" methode="post">
-                            <h3 class="text-center text-info">Login</h3>
-                            <div class="form-group">
-                                <label for="username" class="text-info">Username:</label> <br>
-                                <input type="text" name="username" id="username" class="form-control" placeholder="Username">
-                            </div>
-                            <div class="form-group">
-                                <label for="password" class="text-info">Password:</label> <br>
-                                <input type="text" name="password" id="password" class="form-control" placeholder="password">
-                            </div>
-                            <div class="form-group">
-                            <input type="submit" name="LoginSubmit" class="btn btn-info btn-md" value="submit"/>
-                            </div>
-                            <div id="reg_link" class="text-right">
-                                <a href="?register=true"class="text-info">Registers</a>
-                            </div>
-                        </form>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-</body> -->
 </html>

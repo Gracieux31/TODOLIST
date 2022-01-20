@@ -31,7 +31,7 @@
                 <a class="nav-link" href="#">Paramètre</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="?logout=true">LogOut</a>
+                <a class="nav-link active" href="?action=logout">LogOut</a>
             </li>
         </ul>
     </div>
@@ -42,14 +42,6 @@
             Bienvenue sur notre Page ToDolist
             </div>
         </div>
-    <!-- <nav class="nav navbar-default navbar-stacked">
-            <a class="nav-link active" href="#">Active link</a>
-            <a class="nav-link" href="">Link</a>
-            <a  class="nav-link" href="?logout=true">LogOut</a>
-    </nav>
-        <div class="container"> 
-            <h1>Bienvenue sur notre page TODOLIST</h1>
-        </div> -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
